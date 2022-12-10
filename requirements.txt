@@ -35,7 +35,8 @@ sentencepiece==0.1.97
 datasets==2.5.2
 tokenizers==0.12.1
 #deep learning
-torch
+torch==1.8.0
+torchtext==0.9.0
 torchvision
 tensorflow
 #openai whisper

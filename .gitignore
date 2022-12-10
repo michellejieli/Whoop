@@ -1,5 +1,6 @@
-#ignore huggingface
-summarizeApp
+#ignore large data
+drug_data/
+
 #ignore fine-tuning
 test_trainer/
 
