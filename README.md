@@ -7,6 +7,6 @@
 
 * Naive bayes and synthetic data generator in `naive_bayes.ipynb`
 
-* LSTM in `lstm.ipynb`
+* BiLSTM in `lstm.ipynb`
 
-* Saved LSTM models `/models` folder and saved plots in lots in `/plots` folder
+* Saved LSTM models in `/models` folder and saved plots in lots in `/plots` folder
