@@ -13,11 +13,14 @@ def preprocess_data(tsv_file):
     print("Done preprocessing data")
     return df
 
+
 # remove stop words, punctuations, and numbers
 # apply stemming
 def clean_text(text):
     # remove stop words
-    text = " ".join([word for word in str(text).split() if word not in stopwords.words("english")])
+    text = " ".join(
+        [word for word in str(text).split() if word not in stopwords.words("english")]
+    )
     # remove punctuations
     text = text.translate(str.maketrans("", "", string.punctuation))
     # remove numbers
@@ -25,6 +28,7 @@ def clean_text(text):
     # apply stemming
     text = " ".join([PorterStemmer().stem(word) for word in text.split()])
     return text
+
 
 # split train csv to train and validation csv
 def split_train_val(train_csv):
