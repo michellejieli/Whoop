@@ -10,4 +10,3 @@
 * LSTM in `lstm.ipynb`
 
 * Saved LSTM models `/models` folder and saved plots in lots in `/plots` folder
-
