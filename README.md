@@ -10,3 +10,5 @@
 * BiLSTM in `lstm.ipynb`
 
 * Saved LSTM models in `/models` folder and saved plots in lots in `/plots` folder
+
+* Necessary packages are in `requirements.txt`
