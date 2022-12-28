@@ -12,3 +12,5 @@
 * Saved LSTM models in `/models` folder and saved plots in lots in `/plots` folder
 
 * Necessary packages are in `requirements.txt`
+
+* Go to Github repo for entire code: https://github.com/michellejieli/NLP_Sentiment_Analysis
